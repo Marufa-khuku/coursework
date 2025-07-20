@@ -1,0 +1,61 @@
+/* Hero Section Start */
+.hero-section {
+  background-image: url("B12A01-landing-launchpad/Assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+/* Navbar Part */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #5c4dff;
+}
+
+.signup-btn {
+  background-color: #5c4dff;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 60px;
+}
+/* Banner Content Part */
+.banner-content {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner-content h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.focus-btn {
+  background-color: #5c4dff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
