@@ -59,3 +59,46 @@
   font-size: 14px;
   cursor: pointer;
 }
+
+/* Action section start */
+
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #f3f3fd;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.action-text {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+.action-text h2 {
+  font-size: 24px;
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+
+.action-text p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.preview-btn {
+  background-color: #5c4dff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action-image img {
+  width: 300px;
+  border-radius: 16px;
+}
+
+/* Action section end */
