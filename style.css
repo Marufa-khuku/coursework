@@ -311,4 +311,52 @@
 
 /* Let's Get In Touch Section End */
 
+/* Footer Section Start */
+.footer-section {
+  background-color: #ffffff; /* White background */
+  color: #666666;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #5c4dff; /* Purple like the logo in the image */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  color: #888888; /* Light gray subtitle text */
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #999999; /* Grayish links */
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  background-color: #5c4dff;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+/* Footer Section End */
+/*  Extra Hover Animation for All Buttons */
+.signup-btn:hover,
+.preview-btn:hover,
+.focus-btn:hover,
+.contact-form button:hover,
+.cta-section button:hover {
+  background-color: #2d3ecf;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
 
