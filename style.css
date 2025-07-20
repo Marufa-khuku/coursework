@@ -102,3 +102,37 @@
 }
 
 /* Action section end */
+
+/* Productive User Section Start */
+.user-section {
+  background-color: #eaeaff; /* Light purple-ish background */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 40px 20px;
+}
+.user-section h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat h3 {
+  font-size: 28px;
+  color: #5c4dff;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #555;
+}
+/* Productive User Section End */
